@@ -1,0 +1,56 @@
+/*NAVBAR*/
+
+nav {
+    background-color: #333;
+    color: rgb(233,233,233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 3em;
+    padding-left: 1em;
+}
+
+/*BUTTONS*/
+
+.wrapper {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background: rgb(239, 84, 84);
+    margin: 5px;
+    padding: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #434343;
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0;
+}
+
+/*CARDS*/
+
+div.card-wrapper {
+    width: 80%;
+}
+
+div.card {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+div.card-header {
+    box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+    padding: 1em;
+    background-color: #f1f1f1;  
+}
+
+div.card-content {
+    padding: 1em;
+    background: rgb(179,179,179);
+}
